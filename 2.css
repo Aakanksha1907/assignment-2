@@ -1,0 +1,41 @@
+body{
+    background-color:purple;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: blue;
+}
+.content{
+    max-width:800px;
+    margin:auto;
+}
+@media(max-width:600px)
+{
+    body{
+        background-color:lightskyblue;
+        font-size: 20px;
+        text-align: center;
+        color:black;
+    }
+    @media(min-width:600px)and(max-width:900px)
+    {
+        body{
+            font-size: medium;
+            background-color: blue;
+
+        }
+    @media(min-width:901px)
+    {
+        body {
+            font-style: 22px;
+            background-color:purple;
+        }
+
+    }
+
+        
+    }
+}
